@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1FDCAEEC21E32AC100F72D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCAEEB21E32AC100F72D94 /* AppDelegate.swift */; };
-		1FDCAEEE21E32AC100F72D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCAEED21E32AC100F72D94 /* ViewController.swift */; };
 		1FDCAEF121E32AC100F72D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDCAEEF21E32AC100F72D94 /* Main.storyboard */; };
 		1FDCAEF321E32AC300F72D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDCAEF221E32AC300F72D94 /* Assets.xcassets */; };
 		1FDCAEF621E32AC300F72D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDCAEF421E32AC300F72D94 /* LaunchScreen.storyboard */; };
+		1FDCAEFE21E32B4F00F72D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCAEFD21E32B4F00F72D94 /* ViewController.swift */; };
+		1FDCAF0021E32B6E00F72D94 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCAEFF21E32B6E00F72D94 /* CollectionViewCell.swift */; };
+		1FDCAF0221E32D6800F72D94 /* PanDirectionGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCAF0121E32D6800F72D94 /* PanDirectionGestureRecognizer.swift */; };
+		1FDCAF0421E32D8100F72D94 /* SwipableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCAF0321E32D8100F72D94 /* SwipableCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FDCAEE821E32AC100F72D94 /* CollectionViewWithSwipeAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewWithSwipeAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDCAEEB21E32AC100F72D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FDCAEED21E32AC100F72D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FDCAEF021E32AC100F72D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FDCAEF221E32AC300F72D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FDCAEF521E32AC300F72D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FDCAEF721E32AC300F72D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDCAEFD21E32B4F00F72D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FDCAEFF21E32B6E00F72D94 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1FDCAF0121E32D6800F72D94 /* PanDirectionGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanDirectionGestureRecognizer.swift; sourceTree = "<group>"; };
+		1FDCAF0321E32D8100F72D94 /* SwipableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipableCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				1FDCAEEB21E32AC100F72D94 /* AppDelegate.swift */,
-				1FDCAEED21E32AC100F72D94 /* ViewController.swift */,
+				1FDCAEFD21E32B4F00F72D94 /* ViewController.swift */,
+				1FDCAEFF21E32B6E00F72D94 /* CollectionViewCell.swift */,
+				1FDCAF0321E32D8100F72D94 /* SwipableCollectionViewCell.swift */,
+				1FDCAF0121E32D6800F72D94 /* PanDirectionGestureRecognizer.swift */,
 				1FDCAEEF21E32AC100F72D94 /* Main.storyboard */,
 				1FDCAEF221E32AC300F72D94 /* Assets.xcassets */,
 				1FDCAEF421E32AC300F72D94 /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FDCAEEE21E32AC100F72D94 /* ViewController.swift in Sources */,
+				1FDCAEFE21E32B4F00F72D94 /* ViewController.swift in Sources */,
+				1FDCAF0221E32D6800F72D94 /* PanDirectionGestureRecognizer.swift in Sources */,
 				1FDCAEEC21E32AC100F72D94 /* AppDelegate.swift in Sources */,
+				1FDCAF0021E32B6E00F72D94 /* CollectionViewCell.swift in Sources */,
+				1FDCAF0421E32D8100F72D94 /* SwipableCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
